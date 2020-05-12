@@ -2,7 +2,7 @@
   "name": "code-blitz-server",
   "version": "1.0.0",
   "description": "API for Code Blitz built with NodeJS, Express, MongoDB and TypeScript",
-  "main": "dist/server.js",
+  "main": "dist/lib/server.js",
   "scripts": {
     "dev": "tsc -w",
     "start": "nodemon ./dist/server/lib/server.js",
@@ -15,7 +15,6 @@
   "dependencies": {
     "@types/express": "^4.17.1",
     "@types/mongoose": "^5.7.10",
-    "Express": "^3.0.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
