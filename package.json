@@ -1,0 +1,50 @@
+{
+  "name": "code-blitz-app",
+  "version": "0.1.0",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "MVC",
+    "nodejs",
+    "mongodb",
+    "express",
+    "mongoose"
+  ],
+  "author": "Sarah Lotherington, Chris Fleury, and Pascual Sebastian",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/node": "^11.15.12",
+    "browserify": "^16.5.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-useref": "^3.1.6",
+    "http-proxy-middleware": "1.0.3",
+    "prettier": "^1.19.1",
+    "tsify": "^4.0.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "Express": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "installed-check": "^3.0.0",
+    "log4ts": "^0.4.2",
+    "mongoose": "^5.9.11",
+    "nodemon": "^2.0.3",
+    "typescript-logging": "^0.6.4"
+  }
+}

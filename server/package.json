@@ -1,0 +1,33 @@
+{
+  "name": "code-blitz-server",
+  "version": "1.0.0",
+  "description": "API for Code Blitz built with NodeJS, Express, MongoDB and TypeScript",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "start": "nodemon ./dist/server/lib/server.js",
+    "prod": "npm run dev && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sarah Lotherington, Chris Fleury, and Pascual Sebastian",
+  "license": "Unlicense",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "@types/mongoose": "^5.7.10",
+    "Express": "^3.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "log4ts": "^0.4.2",
+    "mongoose": "^5.9.11",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3",
+    "typescript-logging": "^0.6.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0"
+  }
+}
